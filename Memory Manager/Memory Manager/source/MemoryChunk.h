@@ -12,7 +12,7 @@ public:
 	void Reserve(size_t size);
 	void CleanUp();
 private:
-	char* pMem;
+	void* pMem;
 };
 
 #endif
